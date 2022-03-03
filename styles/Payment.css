@@ -1,0 +1,93 @@
+.paymentsTitle {
+    text-align: center;
+}
+
+.paymentContainer {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.paymentImage {
+    height: 100%;
+    width: 100%;
+    background-image: url('../public/images/payment.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.paymentBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 130px;
+}
+
+.paymentBox h2 {
+    color: rgb(124, 102, 102);
+    font-size: 3rem;
+    margin: 0;
+}
+
+.paymentDetails {
+    background-color: rgb(59,78,159);
+    width: 250px;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.paymentDetails:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+/* In payments.js */
+.parallaxPayment {
+    width: 100%;
+    height: 65vh;
+    background-image: url('../public/images/metodipagamento.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(75, 75, 75);
+}
+
+@media (max-width: 1100px) {
+    .paymentContainer {
+        flex-direction: column;
+    }
+    .paymentBox {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-right: 0;
+    }
+    .paymentImage {
+        background-size: 40%;
+        height: 500px;
+    }
+    .paymentBox h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 468px){
+    .paymentImage {
+        background-size:150%;
+        /* height: 100%; */
+    }
+}

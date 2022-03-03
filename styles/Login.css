@@ -1,0 +1,89 @@
+.loginContainer {
+    height: 90vh;
+    width: 100%;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginItemsContainer {
+    height: 450px;
+    width: 485px;
+    background: #ffffff;  /* fallback for old browsers */
+    border-radius: 12px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.items input {
+    background: transparent;
+    color: rgb(58, 57, 57);
+    border: none;
+    padding: 10px 5px;
+    border-bottom: 1px solid black;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.items ::placeholder{
+    color: rgb(156, 156, 156);
+}
+
+
+.itemsInput {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.items input:focus {
+    outline: none;
+}
+
+#itemsId {
+    margin-top: 40px;
+}
+
+.loginItemsContainer h1 {
+    text-align: center;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.loginForm button {
+    margin-top: 40px;
+    border: none;
+    padding: 15px 100px;
+    cursor: pointer;
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    transition: 0.4s allease-in-out;
+    border-radius: 12px;
+}
+
+.loginForm button:hover {
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.itemForgot {
+    margin-top: 20px;
+}
+

@@ -1,0 +1,262 @@
+/* .homeContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: -1;
+} */
+
+
+/* Anche in questo modo:(mio modo */
+/* .homeContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+} */
+
+/* Creo un div di una certa grandezza e ci metto dentro l'immagine al 100% */
+/* .homeImg {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.homeImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.homeText {
+    width: 500px;
+    margin: 20px;
+}
+
+.homeText h1 {
+    font-size: 3.5rem;
+    line-height: 55px;
+    color:#22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.homeText p {
+    font-size: 1rem;
+    color: #777474;
+}
+
+.mainLogin {
+    width: 120px;
+    height: 40px;
+    background-color: #5a76fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(90,118,253, 0.5);
+    text-transform: uppercase;
+    transition: 0.3s all ease-in-out;
+}
+
+.mainLogin:hover {
+    background-color: #5a76;
+    color: rgba(2, 66, 28, 0.4)
+} */
+
+.homeContent {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeText {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 130px;
+    /* background-color: rgb(246, 168, 168); */
+}
+
+.homeText h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgb(124, 102, 102);
+}
+
+.homeText p{
+    margin: 15px 0;
+}
+
+.homeImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('../public/images/web\ design.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #555; */
+}
+
+.mainLogin {
+    background-color:rgb(59,78,159);
+    width: 250px;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.mainLogin:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.timing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.officeTime {
+    padding-right: 60px;
+    
+}
+
+.titleServices {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.box1, .box2, .box3 {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.box1, .box2, .box3:hover{
+    cursor: pointer;
+}
+
+.boxImage1 {
+    background-image: url('../public/images/undraw_Certificate_re_yadi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 100px;
+    width: 100px;
+}
+.boxImage2 {
+    background-image: url('../public/images/undraw_Software_engineer_re_fyew.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    height: 100px;
+    width: 100px;
+}
+.boxImage3 {
+    background-image: url('../public/images/undraw_Typewriter_re_u9i2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    height: 100px;
+    width: 100px;
+}
+
+.servicesbtn {
+    background-color: rgb(59,78,159);
+    width: 150px;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.servicesbtn:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.boxParag {
+    font-size: .9rem;
+}
+
+@media (max-width: 888px) {
+    .homeContent {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .containerBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .homeImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-image: url('../public/images/web\ design.png');
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .homeText h1 {
+        font-size: 1.5rem;
+        /* margin: 0; */
+        color: rgb(124, 102, 102);
+    }
+    
+    .homeText p{
+        text-align: center;
+        /* margin: 15px 0; */
+    }
+}
