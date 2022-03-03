@@ -1,5 +1,5 @@
 import Link from "next/link";
-import HeaderPayment from "./components/HeaderPayment";
+import HeaderPayment from "../components/HeaderPayment";
 
 
 export default function Home() {

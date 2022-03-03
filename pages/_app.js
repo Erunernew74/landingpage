@@ -6,7 +6,7 @@ import '../styles/Payment.css'
 import '../styles/Login.css'
 import '../styles/Contact.css'
 import '../styles/Signup.css'
-import { Layouts } from './components/Layouts'
+import { Layouts } from '../components/Layouts'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
