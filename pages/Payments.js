@@ -10,7 +10,7 @@ const Payments = () => {
                 
                 </div>
                 <div className='paymentBox'>
-                    <h2>I nostri modi di pagare</h2>
+                    <h2>I nostri modi di pagare online</h2>
                     <h4>Servizi veloci e precisi con garanzia</h4>
                     <Link href='/Payments'><a className='paymentDetails'>DETTAGLI</a></Link>
                 </div>     
