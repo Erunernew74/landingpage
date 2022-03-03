@@ -16,7 +16,7 @@ const Signup = () => {
                     <div className='containerItems'>
                         <div className='itemsTitle'>
                             <h3>Signup for our services</h3>
-                            <p id='member'>I'm already a member! <Link href='/Login'><a>Sign in</a></Link></p>
+                            <p id='member'>I am already a member! <Link href='/Login'><a>Sign in</a></Link></p>
                             <div className='iconsContainer'>
                                 <AiFillGoogleCircle className='icon'/>
                                 <AiFillFacebook className='icon' />

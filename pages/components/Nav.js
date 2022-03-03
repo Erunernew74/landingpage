@@ -7,10 +7,10 @@ const Nav = ({ children }) => {
         <>
         <section className='main'>
             <nav>
-                <Link href='/'><a className='logo'><img src='images/logo.png'/></a></Link>
+                <Link href='/'><a className='logo'><img src='images/logo.png' /></a></Link>
                 {/* -----Menu btn------- */}
                 <input className='menuInput' type='checkbox' id='menuBtn' />
-                <label className='menuIcon' for='menuBtn'>
+                <label className='menuIcon' htmlFor='menuBtn'>
                     <span className='navicon'></span>
                 </label>
                 <ul className='menu'>
